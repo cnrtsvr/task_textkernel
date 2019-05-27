@@ -13,7 +13,7 @@ Usage:
 
 This project is created with CreateReactApp.
 
-- You must insert your GoogleMaps API KEY to 'YOUR_API_KEY' inside 'src/DataTable/components/MapsDialog.js' for google maps to work.
+- You must insert your GoogleMaps API KEY to 'process.env.REACT_APP_GOOGLE_API_KEY' inside 'src/DataTable/components/MapsDialog.js' for google maps to work.
 - You must first do 'npm install' on root folder.
 - CD into 'src' folder and run 'npm run start'.
 - Project will be on 'localhost:3000'.

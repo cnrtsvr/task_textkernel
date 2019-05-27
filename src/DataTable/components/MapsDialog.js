@@ -34,7 +34,7 @@ class MapsDialogComponent extends React.Component {
                     ) : null}</DialogTitle>
                 <DialogContent>
                     <GoogleMap location={location}
-                               googleMapURL={`https://maps.googleapis.com/maps/api/js?key=[YOUR_API_KEY]&v=3.exp&libraries=geometry,drawing,places`}
+                               googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_API_KEY}&v=3.exp&libraries=geometry,drawing,places`}
                                loadingElement={<div style={{ height: `100%` }} />}
                                containerElement={<div style={{ width: '100%', maxWidth: `1280px`, height: `500px` }} />}
                                mapElement={<div style={{ height: `100%` }} />}/>
