@@ -1,6 +1,8 @@
 # task_textkernel
 Interview Task for TextKernel Netherlands
 
+Online demo can be found on https://cnrtsvr.github.io/task_textkernel/
+
 A React app that has a DataTable component with these features:
 
 * Getting data from server
