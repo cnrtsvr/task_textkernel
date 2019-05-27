@@ -1,0 +1,42 @@
+{
+  "cols": [
+    {
+      "header": "Job Title",
+      "name": "job_title"
+    },
+    {
+      "header": "Organization Name",
+      "name": "organization_name"
+    },
+    {
+      "header": "Location",
+      "name": "location_coordinates"
+    }
+  ],
+  "data": [
+    {
+      "job_title": "ASSOCIATE SALES",
+      "organization_name": "Packaging Corporation of America",
+      "location_coordinates": [
+        "42.65258",
+        "-73.75623"
+      ]
+    },
+    {
+      "job_title": "CDL-A OTR Flatbed and Reefer Company Driver Jobs",
+      "organization_name": "Miller Truck Lines, LLC",
+      "location_coordinates": [
+        "41.3595",
+        "-80.56841"
+      ]
+    },
+    {
+      "job_title": "Local and Linehaul Truck Drivers- EFS",
+      "organization_name": "Roadrunner Transportation Systems, Inc.",
+      "location_coordinates": [
+        "40.90644",
+        "-84.29662"
+      ]
+    }
+  ]
+}
